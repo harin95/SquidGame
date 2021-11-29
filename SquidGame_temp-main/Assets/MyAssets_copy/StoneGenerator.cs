@@ -45,7 +45,6 @@ public class StoneGenerator : MonoBehaviour
             }
 
             stone_num -= 1;
-            Debug.Log("남은 구슬 아이템 개수: " + stone_num);
             beanManager.SetBean(stone_num);
         }
     }
