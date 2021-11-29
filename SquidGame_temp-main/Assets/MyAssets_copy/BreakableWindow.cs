@@ -253,7 +253,6 @@ public class BreakableWindow : MonoBehaviour {
         //플레이어가 밟을 때
         if (collision.collider.CompareTag("Player"))
         {
-            Debug.Log("플레이어가 깨지는 유리 밟음");
             breakWindow();
         }
     }
