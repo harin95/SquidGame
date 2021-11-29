@@ -30,7 +30,6 @@ public class itemLightGlass : MonoBehaviour
         if (col.tag == "Player" && flash_item.GetComponent<Light>().enabled == true)
         {
             GetComponent<Renderer>().material = unbreakable;
-            Debug.Log("바닥 색깔 체크");
         }
 
         else if (flash_item.GetComponent<Light>().enabled == false)
