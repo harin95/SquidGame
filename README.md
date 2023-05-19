@@ -9,9 +9,6 @@
 **SquidBuildGame 폴더 내에 SquidGame.exe 실행**
 </br>
 </br>
-
----
-
 </br>
 
 ## 🎈게임 진행 방법
